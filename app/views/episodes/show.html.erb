@@ -1,0 +1,4 @@
+<h1> Episode <%= @episode.number %> </h1>
+<% @episode.guests do |g| %>
+    <p> <%= g.name  %></p>
+<% end %>
